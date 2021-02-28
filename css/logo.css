@@ -1,0 +1,120 @@
+.box {
+    position: relative;
+    width: 39.74px;
+    height: 40px;  
+}
+.circle {
+    position: absolute;
+    left: 50%;
+    right: 37.5%;
+    top: 4.17%;
+    bottom: 83.33%;
+    background: #FFC107;
+    border-radius: 50%;
+    z-index: 2;
+}
+.oval {
+    position: absolute;
+    left: 54.17%;
+    right: 41.67%;
+    top: 12.5%;
+    bottom: 75%;
+    background: #FFA000;
+    border-radius: 2px;
+    z-index: 1;
+}
+.rectangle {
+    position: absolute;
+    left: 45.83%;
+    right: 33.33%;
+    top: 20.83%;
+    bottom: 47.83%;
+    background: #FFD54F;
+    border-radius: 1px;
+    z-index: 2;
+}
+.platform {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 41.66%;
+    bottom: 45.83%;
+    width: 39.73px;
+    height: 5px;
+    z-index: 2;
+}
+.rectangle2 {
+    position: absolute;
+    left: 16.67%;
+    right: 79.17%;
+    top: 50%;
+    bottom: 37.5%;
+    background: #CFD8DC;
+    border-radius: 2px;
+    z-index: 1;
+}
+.rectangle3 {
+    position: absolute;
+    left: 79.16%;
+    right: 16.67%;
+    top: 50%;
+    bottom: 37.5%;
+    border-radius: 2px;
+    background: #CFD8DC;
+}
+.trapezoid1 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 58.33%;
+    bottom: 22.92%;
+    z-index: 2;
+}
+.trapezoid2 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 75.08%;
+    bottom: 4.17%;
+    z-index: 1;
+}
+.rectangle-bottom1 {
+    position: absolute;
+    left: 12.5%;
+    right: 54.17%;
+    top: 83.33%;
+    bottom: 12.5%;
+    background: #B0BEC5;
+    border-radius: 2px;
+    z-index: 2;
+}
+.rectangle-bottom2 {
+    position: absolute;
+    left: 54.17%;
+    right: 37.5%;
+    top: 83.33%;
+    bottom: 12.5%;
+    background: #B0BEC5;
+    border-radius: 2px;
+    z-index: 2;
+}
+.rectangle-bottom3 {
+    position: absolute;
+    left: 66.67%;
+    right: 25%;
+    top: 83.33%;
+    bottom: 12.5%;
+    background: #B0BEC5;
+    border-radius: 2px;
+    z-index: 2;
+}
+.rectangle-bottom4 {
+    position: absolute;
+    left: 79.16%;
+    right: 12.5%;
+    top: 83.33%;
+    bottom: 12.5%;
+    background: #B0BEC5;
+    border-radius: 2px;
+    z-index: 2;
+}

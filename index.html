@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="css/main2.css" rel="stylesheet">
+    <title>BioCAD</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="Search">
+                <div class="search__title">
+                    Enter inventory number, guide or bims id
+                </div>
+                <input type="search" id="search__input" placeholder="A-001234">
+                <button id="btn__search" class="btn__search">
+                    Search
+                </button>
+            </div>
+    </header>
+    <section id="About" class="About">
+        <div class="container">
+            <div class="Unit">
+                <div class="Name">
+                    <div class="Name__title">
+                        <h2>
+                        Аналитические весы OHAUS Adventurer AX324 (B715976163)
+                        </h2>
+                        <div class="Name__logo">
+                            <div class="circle"></div>
+                            <div class="oval"></div>
+                            <div class="rectangle"></div>
+                            <img src="img/logo4.svg" class="platform">
+                            <div class="rectangle2"></div>
+                            <div class="rectangle3"></div>
+                            <img src="img/logo6.svg" class="trapezoid1">
+                            <img src="img/logo7.svg" class="trapezoid2">
+                            <div class="rectangle-bottom1"></div>
+                            <div class="rectangle-bottom2"></div>
+                            <div class="rectangle-bottom3"></div>
+                            <div class="rectangle-bottom4"></div>
+                        </div>
+                    </div>
+                    <!-- Widjet -->
+                    <form class="Name__select">
+                        <select class="form-control">
+                            <option value="1 month">1 month</option>
+                            <option value="6 months">6 months</option>
+                            <option value="1 year">1 year</option>
+                        </select>
+                    </form>
+                    <!-- Radio-buttons -->
+                    <form class="Name__radio">
+                        <label class="radio">
+                            <input type="radio" class="radio__real" name="show" checked>
+                            <span class="radio__fake"></span>
+                            <span class="radio__title">Calibration</span>
+                        </label>
+                        <label class="radio">
+                            <input type="radio" class="radio__real" name="show">
+                            <span class="radio__fake"></span>
+                            <span class="radio__title">Measuring</span>
+                        </label>
+                        <label class="radio">
+                            <input type="radio" class="radio__real" name="show">
+                            <span class="radio__fake"></span>
+                            <span class="radio__title">Using</span>
+                        </label>
+                    </form>
+                    <button class="btn__report" id="btn__report">Generate report</button>
+                </div>
+                <div class="Info">
+                    <ul class="Info__list">
+                        <li><span>Тип оборудования:</span> Весы</li>
+                        <li><span>Статус:</span> Готов к работе</li>
+                        <li><span>Изготовитель:</span> Ohaus</li>
+                        <li><span>Модель:</span> AX-123</li>
+                        <li><span>Ответственное подразделение (ремонт):</span> Группа обслуживания лабораторного оборудования</li>
+                        <li><span>Эксплуатирующее подразделение:</span> Химико-аналитическая лаборатория 2.0</li>
+                        <li><span>МОЛ:</span> Иванов Иван Иванович</li>
+                        <li><span>Территория:</span> г. Санкт-Петербург (Нойдорф)</li>
+                        <li><span>Серийный номер:</span> B715976163</li>
+                        <li><span>GUID:</span> 508b2a71-662e-4983-ae0c-3cb0c1cd21c5</li>
+                        <li><span>Bims ID:</span> 49db8db1-585f-4b9e-bbf0-8a59698edc8b</li>
+                        <li><span>Tam:</span>  А-001234</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Table" class="Table">
+        <div class="container">
+            <div class="report">
+                <table>
+                    <caption class="table__title">Calibration report</caption>
+                        <colgroup>
+                            <col class="col1">
+                            <col class="col2">
+                            <col class="col3">
+                            <col class="col4">
+                            <col class="col5">                            
+                        </colgroup>
+
+                        <tr>
+                            <th scope="col">Data</th>
+                            <th scope="col">Used buffer solutions</th>
+                            <th scope="col">Slope, % <br> Norm 95-105</th>
+                            <th scope="col">Offset, mV <br> Norm ±(0-20)</th>
+                            <th scope="col">User</th>
+                        </tr>    
+                        <tr>
+                            
+                            <td> 04.10.19 <br>10:23</td>
+                            <td>    В 1: № 2000460789536: pH 1.09
+                                <br>В2: № 2000460789536: pH 2.00
+                                <br>В3: № 2000460789536: pH 4.01
+                                <br>В4: № 2000460789536: pH 7.00
+                                <br>В5: № 2000460789536: pH 9.21
+                                                            
+                            </td>
+                            <td>
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox__real" value="check1">
+                                    98.7     
+                                    <span class="checkbox__fake"></span>
+                                </label>
+                            </td>
+                            <td>
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox__real" value="check5">
+                                    -0.3
+                                    <span class="checkbox__fake"></span>
+                                </label>
+                            </td>
+                            <td>Иванов Геннадий Петрович</td>
+                        </tr>
+                        <tr>
+                            
+                            <td>04.10.19 <br>10:23</td>
+                            <td>    В 1: № 2000460789536: pH 1.09
+                                <br>В2: № 2000460789536: pH 2.00
+                                <br>В3: № 2000460789536: pH 4.01
+                                <br>В4: № 2000460789536: pH 7.00
+                                <br>В5: № 2000460789536: pH 9.21
+                            </td>
+                            <td>
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox__real" value="check2">
+                                    98.7
+                                    <span class="checkbox__fake"></span>
+                                </label>
+                            </td>
+                            <td>
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox__real" value="check6">
+                                    -0.3
+                                    <span class="checkbox__fake"></span>
+                                </label>
+                            </td>
+                            <td>Петров Иван Генадьевич</td>
+                        </tr>
+                        <tr>
+                            
+                            <td>04.10.19 <br>10:23</td>
+                            <td>    В 1: № 2000460789536: pH 1.09
+                                <br>В2: № 2000460789536: pH 2.00
+                                <br>В3: № 2000460789536: pH 4.01
+                                <br>В4: № 2000460789536: pH 7.00
+                                <br>В5: № 2000460789536: pH 9.21
+                            </td>
+                            <td>
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox__real" value="check3">
+                                    98.7
+                                    <span class="checkbox__fake"></span>
+                                </label>
+                            </td>
+                            <td>
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox__real" value="check7">
+                                    -0.3
+                                    <span class="checkbox__fake"></span>
+                                </label>
+                            </td>
+                            <td>Петров Генадий Иванович</td>
+                        </tr>
+                        <tr>
+                            
+                            <td>04.10.19 <br>10:23</td>
+                            <td>    В 1: № 2000460789536: pH 1.09
+                                <br>В2: № 2000460789536: pH 2.00
+                                <br>В3: № 2000460789536: pH 4.01
+                                <br>В4: № 2000460789536: pH 7.00
+                                <br>В5: № 2000460789536: pH 9.21
+                            </td>
+                            <td>
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox__real" value="check4">
+                                    90.1
+                                    <span class="checkbox__false"></span>
+                                </label>
+                            </td>
+                            <td>
+                                <label class="checkbox">
+                                    <input type="checkbox" class="checkbox__real" value="check8">
+                                    -0.5
+                                    <span class="checkbox__fake"></span>
+                                </label>
+                            </td>
+                            <td>Генадьев Иван Петрович</td>
+                        </tr>
+                   </table>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <h3>
+            Borschewski Evgeni, 2020.
+        </h3>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
