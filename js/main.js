@@ -1,13 +1,19 @@
-var btnSearch=document.getElementById('btn__search');
+var btnSearch = document.getElementById('btn__search');
+var search = document.querySelector('.about');
+var table = document.querySelector('.table');
 
 btnSearch.onclick = function () {
-    var search=document.querySelector('.About');
-    search.style.display='block';
+  if (undefined === search && null === search) {
+    return;
+  }
+  search.style.display='block';
 }
 
-var btn=document.getElementById('btn__report');
+var btn = document.getElementById('btn__report');
 
 btn.onclick = function () {
-    var table=document.querySelector('.Table');
-    table.style.display='block';
+  if (undefined === table && null === table) {
+    return;
+  }
+  table.style.display='block';
 }
